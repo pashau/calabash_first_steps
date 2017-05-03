@@ -1,0 +1,975 @@
+PS D:\calabash\calabash-test-android> calabash-android console .\CALCU.apk
+Starting calabash-android console...
+Loading C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/calabash-android-0.9.0/irbrc
+Running irb...
+irb(main):001:0>
+irb(main):002:0*
+irb(main):003:0* reinstall_apps
+true
+irb(main):004:0> start_test_server_in_background
+nil
+irb(main):005:0> query("*")
+[
+    [ 0] {
+                     "class" => "com.android.internal.policy.PhoneWindow$DecorView",
+                       "tag" => nil,
+               "description" => "com.android.internal.policy.PhoneWindow$DecorView{d3796c4 V.E...... R....... 0,0-1080,1920}",
+                        "id" => nil,
+                   "visible" => true,
+                      "rect" => {
+              "height" => 1920,
+               "width" => 1080,
+                   "y" => 0,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 960
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [ 1] {
+                     "class" => "android.widget.LinearLayout",
+                       "tag" => nil,
+               "description" => "android.widget.LinearLayout{d666499 V.E...... ........ 0,0-1080,1794}",
+                        "id" => nil,
+                   "visible" => true,
+                      "rect" => {
+              "height" => 1794,
+               "width" => 1080,
+                   "y" => 0,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 897
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [ 2] {
+                     "class" => "android.widget.FrameLayout",
+                       "tag" => nil,
+               "description" => "android.widget.FrameLayout{e95a35e V.E...... ........ 0,0-1080,1794 #1020002 android:id/content}",
+                        "id" => "content",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 1794,
+               "width" => 1080,
+                   "y" => 0,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 897
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [ 3] {
+                     "class" => "com.candl.athena.activity.RootLinearLayout",
+                       "tag" => nil,
+               "description" => "com.candl.athena.activity.RootLinearLayout{631633f V.E...... ........ 0,0-1080,1794 #7f100143 app:id/root_container}",
+                        "id" => "root_container",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 1794,
+               "width" => 1080,
+                   "y" => 0,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 897
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [ 4] {
+                     "class" => "com.candl.athena.view.dragview.DrawerLayoutWorkaround",
+                       "tag" => nil,
+               "description" => "com.candl.athena.view.dragview.DrawerLayoutWorkaround{fea40c VFE...... ........ 0,0-1080,1794 #7f100144 app:id/settings_drawer_layout}",
+                        "id" => "settings_drawer_layout",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 1794,
+               "width" => 1080,
+                   "y" => 0,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 897
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [ 5] {
+                     "class" => "android.widget.LinearLayout",
+                       "tag" => nil,
+               "description" => "android.widget.LinearLayout{fafb155 V.E...... ........ 0,0-1080,1794}",
+                        "id" => nil,
+                   "visible" => true,
+                      "rect" => {
+              "height" => 1794,
+               "width" => 1080,
+                   "y" => 0,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 897
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [ 6] {
+                     "class" => "android.widget.FrameLayout",
+                       "tag" => nil,
+               "description" => "android.widget.FrameLayout{294976a V.E...... ........ 0,0-1080,133 #7f10010e app:id/ads}",
+                        "id" => "ads",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 133,
+               "width" => 1080,
+                   "y" => 0,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 66
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [ 7] {
+                     "class" => "com.digitalchemy.foundation.android.advertising.c.a",
+                       "tag" => nil,
+               "description" => "com.digitalchemy.foundation.android.advertising.c.a{562f45b V.E...... ........ 0,0-1080,131}",
+                        "id" => nil,
+                   "visible" => true,
+                      "rect" => {
+              "height" => 131,
+               "width" => 1080,
+                   "y" => 0,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 65
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [ 8] {
+                     "class" => "com.google.android.gms.ads.AdView",
+                       "tag" => "AdMob Smart Banner",
+               "description" => "com.google.android.gms.ads.AdView{a4d3834 V.E...... ......I. 1,0-1079,131}",
+                        "id" => nil,
+                   "visible" => true,
+                      "rect" => {
+              "height" => 131,
+               "width" => 1078,
+                   "y" => 0,
+                   "x" => 1,
+            "center_x" => 540,
+            "center_y" => 65
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [ 9] {
+                     "class" => "com.google.android.gms.ads.internal.bp",
+                       "tag" => nil,
+               "description" => "com.google.android.gms.ads.internal.bp{51a8f07 V.E...... ......I. 0,0-1078,131}",
+                        "id" => nil,
+                   "visible" => true,
+                      "rect" => {
+              "height" => 131,
+               "width" => 1078,
+                   "y" => 0,
+                   "x" => 1,
+            "center_x" => 540,
+            "center_y" => 65
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [10] {
+                     "class" => "com.google.android.gms.ads.internal.webview.n",
+                       "tag" => nil,
+               "description" => "com.google.android.gms.ads.internal.webview.n{9fc1ce7 V.E...... ......I. 0,0-1078,131}"
+,
+                        "id" => nil,
+                   "visible" => true,
+                      "rect" => {
+              "height" => 131,
+               "width" => 1078,
+                   "y" => 0,
+                   "x" => 1,
+            "center_x" => 540,
+            "center_y" => 65
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [11] {
+                     "class" => "com.google.android.gms.ads.internal.webview.o",
+                       "tag" => nil,
+               "description" => "com.google.android.gms.ads.internal.webview.o{af7f4f8 V.EDHVCL. ......I. 0,0-1078,131}"
+,
+                        "id" => nil,
+                   "visible" => true,
+                      "rect" => {
+              "height" => 131,
+               "width" => 1078,
+                   "y" => 0,
+                   "x" => 1,
+            "center_x" => 540,
+            "center_y" => 65
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [12] {
+                     "class" => "android.view.View",
+                       "tag" => nil,
+               "description" => "android.view.View{8070dd1 V.ED..... ........ 0,131-1080,133}",
+                        "id" => nil,
+                   "visible" => true,
+                      "rect" => {
+              "height" => 2,
+               "width" => 1080,
+                   "y" => 131,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 132
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [13] {
+                     "class" => "android.widget.FrameLayout",
+                       "tag" => nil,
+               "description" => "android.widget.FrameLayout{1dcc036 V.E...... ........ 0,133-1080,1794}",
+                        "id" => nil,
+                   "visible" => true,
+                      "rect" => {
+              "height" => 1661,
+               "width" => 1080,
+                   "y" => 133,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 963
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [14] {
+                     "class" => "com.candl.athena.view.background.VerticalDrawerWithBackground",
+                       "tag" => nil,
+               "description" => "com.candl.athena.view.background.VerticalDrawerWithBackground{d527b37 V.E...... ........ 0,0-1080,1661 #7f1000cf app:id/view_root}",
+                        "id" => "view_root",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 1661,
+               "width" => 1080,
+                   "y" => 133,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 963
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [15] {
+                     "class" => "android.widget.LinearLayout",
+                       "tag" => nil,
+               "description" => "android.widget.LinearLayout{13368a4 V.E...... ........ 0,0-1080,1661 #7f10010f app:id/content}",
+                        "id" => "content",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 1661,
+               "width" => 1080,
+                   "y" => 133,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 963
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [16] {
+                     "class" => "com.candl.athena.view.display.DisplayContainer",
+                       "tag" => nil,
+               "description" => "com.candl.athena.view.display.DisplayContainer{f9db60d V.E...... ........ 0,0-1080,553#7f1000fa app:id/layout_display}",
+                        "id" => "layout_display",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 553,
+               "width" => 1080,
+                   "y" => 133,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 409
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [17] {
+                     "class" => "android.widget.LinearLayout",
+                       "tag" => nil,
+               "description" => "android.widget.LinearLayout{eaca9c2 V.E...... ........ 0,0-1080,553 #7f1000fb app:id/display_content}",
+                        "id" => "display_content",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 553,
+               "width" => 1080,
+                   "y" => 133,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 409
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [18] {
+                     "class" => "android.widget.RelativeLayout",
+                       "tag" => nil,
+               "description" => "android.widget.RelativeLayout{94993d3 V.E...... ........ 26,18-1054,110}",
+                        "id" => nil,
+                   "visible" => true,
+                      "rect" => {
+              "height" => 92,
+               "width" => 1028,
+                   "y" => 151,
+                   "x" => 26,
+            "center_x" => 540,
+            "center_y" => 197
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [19] {
+                     "class" => "android.widget.LinearLayout",
+                       "tag" => nil,
+               "description" => "android.widget.LinearLayout{7906b10 V.E...... ........ 0,0-1028,92 #7f1000fc app:id/memory_view_container}",
+                        "id" => "memory_view_container",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 92,
+               "width" => 1028,
+                   "y" => 151,
+                   "x" => 26,
+            "center_x" => 540,
+            "center_y" => 197
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [20] {
+                     "class" => "com.candl.athena.view.display.CalculatorDisplay",
+                       "tag" => nil,
+               "description" => "com.candl.athena.view.display.CalculatorDisplay{77ca609 V.E...... ........ 26,110-1054,405 #7f1000ff app:id/display}",
+                        "id" => "display",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 295,
+               "width" => 1028,
+                   "y" => 243,
+                   "x" => 26,
+            "center_x" => 540,
+            "center_y" => 390
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [21] {
+                     "class" => "com.candl.athena.view.ShaderTextView",
+                       "tag" => nil,
+               "description" => "com.candl.athena.view.ShaderTextView{e9fa00e V.ED..C.. ........ 0,0-1028,295}",
+                        "id" => nil,
+                      "text" => "0",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 295,
+               "width" => 1028,
+                   "y" => 243,
+                   "x" => 26,
+            "center_x" => 540,
+            "center_y" => 390
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [22] {
+                     "class" => "android.widget.RelativeLayout",
+                       "tag" => nil,
+               "description" => "android.widget.RelativeLayout{58f9a2f V.E...... ........ 26,405-1054,534}",
+                        "id" => nil,
+                   "visible" => true,
+                      "rect" => {
+              "height" => 129,
+               "width" => 1028,
+                   "y" => 538,
+                   "x" => 26,
+            "center_x" => 540,
+            "center_y" => 602
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [23] {
+                     "class" => "com.candl.athena.view.RightAlignedHorizontalScrollView",
+                       "tag" => nil,
+               "description" => "com.candl.athena.view.RightAlignedHorizontalScrollView{e79283c VFED..... ........ 0,0-1028,129 #7f1000d9 app:id/input_scrollview}",
+                        "id" => "input_scrollview",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 129,
+               "width" => 1028,
+                   "y" => 538,
+                   "x" => 26,
+            "center_x" => 540,
+            "center_y" => 602
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [24] {
+                     "class" => "com.candl.athena.view.display.CalculatorInputLayout",
+                       "tag" => nil,
+               "description" => "com.candl.athena.view.display.CalculatorInputLayout{e4099c5 V.E...... ........ 981,0-1028,129 #7f1000da app:id/layout_input_holder}",
+                        "id" => "layout_input_holder",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 129,
+               "width" => 47,
+                   "y" => 538,
+                   "x" => 1007,
+            "center_x" => 1030,
+            "center_y" => 602
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [25] {
+                     "class" => "com.candl.athena.view.display.InputEditText",
+                       "tag" => nil,
+               "description" => "com.candl.athena.view.display.InputEditText{3b9af1a VFED..C.. .F...... 0,0-47,129}",
+                        "id" => nil,
+                      "text" => "0",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 129,
+               "width" => 47,
+                   "y" => 538,
+                   "x" => 1007,
+            "center_x" => 1030,
+            "center_y" => 602
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [26] {
+                     "class" => "com.candl.athena.view.pulltoact.PullView",
+                       "tag" => nil,
+               "description" => "com.candl.athena.view.pulltoact.PullView{185aa4b V.E...... ........ 0,553-1080,1661 #7f100110 app:id/pullview_root}",
+                        "id" => "pullview_root",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 1108,
+               "width" => 1080,
+                   "y" => 686,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 1240
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [27] {
+                     "class" => "android.widget.FrameLayout",
+                       "tag" => nil,
+               "description" => "android.widget.FrameLayout{ce8c28 V.E...... ........ 0,0-1080,1108}",
+                        "id" => nil,
+                   "visible" => true,
+                      "rect" => {
+              "height" => 1108,
+               "width" => 1080,
+                   "y" => 686,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 1240
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [28] {
+                     "class" => "com.candl.athena.view.viewpager.StaticVerticalViewPager",
+                       "tag" => nil,
+               "description" => "com.candl.athena.view.viewpager.StaticVerticalViewPager{5960d41 VFED..... ........ 0,0-1080,1108 #7f100111 app:id/vertical_view_pager}",
+                        "id" => "vertical_view_pager",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 1108,
+               "width" => 1080,
+                   "y" => 686,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 1240
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [29] {
+                     "class" => "android.widget.LinearLayout",
+                       "tag" => nil,
+               "description" => "android.widget.LinearLayout{a33a2e6 V.E...... ........ 0,0-1080,1108}",
+                        "id" => nil,
+                   "visible" => true,
+                      "rect" => {
+              "height" => 1108,
+               "width" => 1080,
+                   "y" => 686,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 1240
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [30] {
+                     "class" => "com.candl.athena.view.keypad.GroupingKeypadLayout",
+                       "tag" => nil,
+               "description" => "com.candl.athena.view.keypad.GroupingKeypadLayout{782a027 V.E...... ........ 0,0-1080,1108 #7f100131 app:id/main_keypad}",
+                        "id" => "main_keypad",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 1108,
+               "width" => 1080,
+                   "y" => 686,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 1240
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [31] {
+                     "class" => "com.candl.athena.view.button.DecoratedButton",
+                       "tag" => nil,
+               "description" => "com.candl.athena.view.button.DecoratedButton{49442d4 VFED..C.. ........ 0,0-267,182 #7f10003f app:id/setting}",
+                        "id" => "setting",
+                      "text" => "B",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 182,
+               "width" => 267,
+                   "y" => 686,
+                   "x" => 0,
+            "center_x" => 133,
+            "center_y" => 777
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [32] {
+                     "class" => "com.candl.athena.view.button.DecoratedButton",
+                       "tag" => nil,
+               "description" => "com.candl.athena.view.button.DecoratedButton{3753c7d VFED..C.. ........ 270,0-538,182 #7f10001d app:id/del}",
+                        "id" => "del",
+                      "text" => "A",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 182,
+               "width" => 268,
+                   "y" => 686,
+                   "x" => 270,
+            "center_x" => 404,
+            "center_y" => 777
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [33] {
+                     "class" => "com.candl.athena.view.button.DecoratedButton",
+                       "tag" => nil,
+               "description" => "com.candl.athena.view.button.DecoratedButton{7070772 VFED..C.. ........ 541,0-809,182 #7f100004 app:id/clear}",
+                        "id" => "clear",
+                      "text" => "C",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 182,
+               "width" => 268,
+                   "y" => 686,
+                   "x" => 541,
+            "center_x" => 675,
+            "center_y" => 777
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [34] {
+                     "class" => "com.candl.athena.view.button.DecoratedButton",
+                       "tag" => nil,
+               "description" => "com.candl.athena.view.button.DecoratedButton{66f17c3 VFED..C.. ........ 812,0-1080,182#7f100028 app:id/div}",
+                        "id" => "div",
+                      "text" => "Ã·",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 182,
+               "width" => 268,
+                   "y" => 686,
+                   "x" => 812,
+            "center_x" => 946,
+            "center_y" => 777
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [35] {
+                     "class" => "com.candl.athena.view.button.DecoratedButton",
+                       "tag" => nil,
+               "description" => "com.candl.athena.view.button.DecoratedButton{a5cb840 VFED..C.. ........ 0,185-267,367 #7f100038 app:id/percent}",
+                        "id" => "percent",
+                      "text" => "%",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 182,
+               "width" => 267,
+                   "y" => 871,
+                   "x" => 0,
+            "center_x" => 133,
+            "center_y" => 962
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [36] {
+                     "class" => "com.candl.athena.view.button.DecoratedButton",
+                       "tag" => nil,
+               "description" => "com.candl.athena.view.button.DecoratedButton{b1e2379 VFED..C.. ........ 270,185-538,367 #7f10002d app:id/leftParen}",
+                        "id" => "leftParen",
+                      "text" => "(",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 182,
+               "width" => 268,
+                   "y" => 871,
+                   "x" => 270,
+            "center_x" => 404,
+            "center_y" => 962
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [37] {
+                     "class" => "com.candl.athena.view.button.DecoratedButton",
+                       "tag" => nil,
+               "description" => "com.candl.athena.view.button.DecoratedButton{33a28be VFED..C.. ........ 541,185-809,367 #7f10003e app:id/rightParen}",
+                        "id" => "rightParen",
+                      "text" => ")",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 182,
+               "width" => 268,
+                   "y" => 871,
+                   "x" => 541,
+            "center_x" => 675,
+            "center_y" => 962
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [38] {
+                     "class" => "com.candl.athena.view.button.DecoratedButton",
+                       "tag" => nil,
+               "description" => "com.candl.athena.view.button.DecoratedButton{9216d1f VFED..C.. ........ 812,185-1080,367 #7f100037 app:id/mul}",
+                        "id" => "mul",
+                      "text" => "Ã-",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 182,
+               "width" => 268,
+                   "y" => 871,
+                   "x" => 812,
+            "center_x" => 946,
+            "center_y" => 962
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [39] {
+                     "class" => "com.candl.athena.view.button.DecoratedButton",
+                       "tag" => nil,
+               "description" => "com.candl.athena.view.button.DecoratedButton{775186c VFED..C.. ........ 0,370-267,552 #7f100025 app:id/digit7}",
+                        "id" => "digit7",
+                      "text" => "7",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 182,
+               "width" => 267,
+                   "y" => 1056,
+                   "x" => 0,
+            "center_x" => 133,
+            "center_y" => 1147
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [40] {
+                     "class" => "com.candl.athena.view.button.DecoratedButton",
+                       "tag" => nil,
+               "description" => "com.candl.athena.view.button.DecoratedButton{9d47e35 VFED..C.. ........ 270,370-538,552 #7f100026 app:id/digit8}",
+                        "id" => "digit8",
+                      "text" => "8",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 182,
+               "width" => 268,
+                   "y" => 1056,
+                   "x" => 270,
+            "center_x" => 404,
+            "center_y" => 1147
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [41] {
+                     "class" => "com.candl.athena.view.button.DecoratedButton",
+                       "tag" => nil,
+               "description" => "com.candl.athena.view.button.DecoratedButton{fec12ca VFED..C.. ........ 541,370-809,552 #7f100027 app:id/digit9}",
+                        "id" => "digit9",
+                      "text" => "9",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 182,
+               "width" => 268,
+                   "y" => 1056,
+                   "x" => 541,
+            "center_x" => 675,
+            "center_y" => 1147
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [42] {
+                     "class" => "com.candl.athena.view.button.DecoratedButton",
+                       "tag" => nil,
+               "description" => "com.candl.athena.view.button.DecoratedButton{779bc3b VFED..C.. ........ 812,370-1080,552 #7f10002f app:id/minus}",
+                        "id" => "minus",
+                      "text" => "â^'",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 182,
+               "width" => 268,
+                   "y" => 1056,
+                   "x" => 812,
+            "center_x" => 946,
+            "center_y" => 1147
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [43] {
+                     "class" => "com.candl.athena.view.button.DecoratedButton",
+                       "tag" => nil,
+               "description" => "com.candl.athena.view.button.DecoratedButton{6d14f58 VFED..C.. ........ 0,555-267,737 #7f100022 app:id/digit4}",
+                        "id" => "digit4",
+                      "text" => "4",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 182,
+               "width" => 267,
+                   "y" => 1241,
+                   "x" => 0,
+            "center_x" => 133,
+            "center_y" => 1332
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [44] {
+                     "class" => "com.candl.athena.view.button.DecoratedButton",
+                       "tag" => nil,
+               "description" => "com.candl.athena.view.button.DecoratedButton{35bc8b1 VFED..C.. ........ 270,555-538,737 #7f100023 app:id/digit5}",
+                        "id" => "digit5",
+                      "text" => "5",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 182,
+               "width" => 268,
+                   "y" => 1241,
+                   "x" => 270,
+            "center_x" => 404,
+            "center_y" => 1332
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [45] {
+                     "class" => "com.candl.athena.view.button.DecoratedButton",
+                       "tag" => nil,
+               "description" => "com.candl.athena.view.button.DecoratedButton{f209196 VFED..C.. ........ 541,555-809,737 #7f100024 app:id/digit6}",
+                        "id" => "digit6",
+                      "text" => "6",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 182,
+               "width" => 268,
+                   "y" => 1241,
+                   "x" => 541,
+            "center_x" => 675,
+            "center_y" => 1332
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [46] {
+                     "class" => "com.candl.athena.view.button.DecoratedButton",
+                       "tag" => nil,
+               "description" => "com.candl.athena.view.button.DecoratedButton{d3de117 VFED..C.. ........ 812,555-1080,737 #7f100039 app:id/plus}",
+                        "id" => "plus",
+                      "text" => "+",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 182,
+               "width" => 268,
+                   "y" => 1241,
+                   "x" => 812,
+            "center_x" => 946,
+            "center_y" => 1332
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [47] {
+                     "class" => "com.candl.athena.view.button.DecoratedButton",
+                       "tag" => nil,
+               "description" => "com.candl.athena.view.button.DecoratedButton{cb80904 VFED..C.. ........ 0,740-267,922 #7f10001f app:id/digit1}",
+                        "id" => "digit1",
+                      "text" => "1",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 182,
+               "width" => 267,
+                   "y" => 1426,
+                   "x" => 0,
+            "center_x" => 133,
+            "center_y" => 1517
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [48] {
+                     "class" => "com.candl.athena.view.button.DecoratedButton",
+                       "tag" => nil,
+               "description" => "com.candl.athena.view.button.DecoratedButton{a333eed VFED..C.. ........ 270,740-538,922 #7f100020 app:id/digit2}",
+                        "id" => "digit2",
+                      "text" => "2",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 182,
+               "width" => 268,
+                   "y" => 1426,
+                   "x" => 270,
+            "center_x" => 404,
+            "center_y" => 1517
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [49] {
+                     "class" => "com.candl.athena.view.button.DecoratedButton",
+                       "tag" => nil,
+               "description" => "com.candl.athena.view.button.DecoratedButton{d4c3122 VFED..C.. ........ 541,740-809,922 #7f100021 app:id/digit3}",
+                        "id" => "digit3",
+                      "text" => "3",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 182,
+               "width" => 268,
+                   "y" => 1426,
+                   "x" => 541,
+            "center_x" => 675,
+            "center_y" => 1517
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [50] {
+                     "class" => "com.candl.athena.view.button.DecoratedButton",
+                       "tag" => nil,
+               "description" => "com.candl.athena.view.button.DecoratedButton{2b577b3 VFED..C.. ........ 812,740-1080,1108 #7f10002a app:id/equal}",
+                        "id" => "equal",
+                      "text" => "=",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 368,
+               "width" => 268,
+                   "y" => 1426,
+                   "x" => 812,
+            "center_x" => 946,
+            "center_y" => 1610
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [51] {
+                     "class" => "com.candl.athena.view.button.DecoratedButton",
+                       "tag" => nil,
+               "description" => "com.candl.athena.view.button.DecoratedButton{92eb170 VFED..C.. ........ 0,925-267,1108#7f100041 app:id/toggle_sign}",
+                        "id" => "toggle_sign",
+                      "text" => "+/â^'",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 183,
+               "width" => 267,
+                   "y" => 1611,
+                   "x" => 0,
+            "center_x" => 133,
+            "center_y" => 1702
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [52] {
+                     "class" => "com.candl.athena.view.button.DecoratedButton",
+                       "tag" => nil,
+               "description" => "com.candl.athena.view.button.DecoratedButton{f91dce9 VFED..C.. ........ 270,925-538,1108 #7f10001e app:id/digit0}",
+                        "id" => "digit0",
+                      "text" => "0",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 183,
+               "width" => 268,
+                   "y" => 1611,
+                   "x" => 270,
+            "center_x" => 404,
+            "center_y" => 1702
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [53] {
+                     "class" => "com.candl.athena.view.button.DecoratedButton",
+                       "tag" => nil,
+               "description" => "com.candl.athena.view.button.DecoratedButton{7a03d6e VFED..C.. ........ 541,925-809,1108 #7f100029 app:id/dot}",
+                        "id" => "dot",
+                      "text" => ".",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 183,
+               "width" => 268,
+                   "y" => 1611,
+                   "x" => 541,
+            "center_x" => 675,
+            "center_y" => 1702
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    },
+    [54] {
+                     "class" => "android.view.View",
+                       "tag" => nil,
+               "description" => "android.view.View{305dc0f V.ED..... ........ 0,1794-1080,1920 #1020030 android:id/navigationBarBackground}",
+                        "id" => "navigationBarBackground",
+                   "visible" => true,
+                      "rect" => {
+              "height" => 126,
+               "width" => 1080,
+                   "y" => 1794,
+                   "x" => 0,
+            "center_x" => 540,
+            "center_y" => 1857
+        },
+                   "enabled" => true,
+        "contentDescription" => nil
+    }
+]
