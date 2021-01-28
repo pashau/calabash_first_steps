@@ -1,4 +1,4 @@
-# calabash_fist_steps
+# calabash_first_steps
 small calabash project.
 
 http://calaba.sh/
